@@ -1,0 +1,126 @@
+/* Reset básico e correção de rolagem */
+html, body {
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Estilo Geral */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #900;
+  text-align: center;
+  padding: 60px 20px;
+  position: relative;
+  z-index: 1;
+}
+
+header h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+header p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Seções */
+section {
+  background-color: #111;
+  margin: 40px auto;
+  padding: 40px 30px;
+  max-width: 800px;
+  border-left: 8px solid #900;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(144, 0, 0, 0.4);
+  position: relative;
+  z-index: 1;
+}
+
+section h2 {
+  color: #900;
+  font-size: 28px;
+  text-align: center;
+}
+
+section p,
+section ul {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Canvas de Fundo */
+canvas#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  header {
+    padding: 40px 15px;
+  }
+
+  header h1 {
+    font-size: 28px;
+  }
+
+  header p {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 30px 20px;
+    margin: 30px 15px;
+  }
+
+  section h2 {
+    font-size: 24px;
+  }
+
+  section p,
+  section ul {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 22px;
+  }
+
+  header p {
+    font-size: 14px;
+  }
+
+  section {
+    padding: 25px 15px;
+    border-left: 5px solid #900;
+  }
+
+  section h2 {
+    font-size: 20px;
+  }
+
+  section p,
+  section ul {
+    font-size: 15px;
+  }
+  .ultimo{
+    margin-bottom: 300px;
+  }
+}

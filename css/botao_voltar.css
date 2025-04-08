@@ -1,0 +1,29 @@
+.Botao_voltar a {
+    text-decoration: none;
+    position: absolute;
+    left: 5px;
+    padding: 10px;
+    top: 10px;
+    background-color: #111;
+    color: aliceblue;
+    border-radius: 40%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 19px;
+  }
+  .Botao_voltar a:hover {
+    font-size: 24px;
+    background-color: chartreuse;
+    color: #111;
+  }
+
+
+  @media (max-width: 1024px){
+    .Botao_voltar a {
+      text-decoration: none;
+    position: absolute;
+    left: 0px;
+    padding: 10px;
+    top: 0px;
+    font-size: 13px;
+    }
+  }
