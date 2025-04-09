@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill-B5Qt9EMX.js";/* empty css                     */function l(o){console.log("Caminho da imagem recebido:",o);const e=document.getElementById("modal"),d=document.getElementById("modal-img");e.style.display="block",d.src=o}function n(){const o=document.getElementById("modal");o.style.display="none"}window.openModal=l;window.closeModal=n;

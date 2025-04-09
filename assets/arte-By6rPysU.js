@@ -1,1 +1,0 @@
-import"./modulepreload-polyfill-B5Qt9EMX.js";/* empty css                     */function e(o){const d=document.getElementById("modal"),l=document.getElementById("modal-img");d.style.display="block",l.src=o}function n(){const o=document.getElementById("modal");o.style.display="none"}window.openModal=e;window.closeModal=n;
